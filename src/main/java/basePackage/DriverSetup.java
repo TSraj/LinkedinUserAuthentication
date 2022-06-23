@@ -12,7 +12,7 @@ public class DriverSetup {
 	public static WebDriver driver;
 	
 	@BeforeSuite
-	public static void setDRiver() {
+	public static void setDriver() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 	}

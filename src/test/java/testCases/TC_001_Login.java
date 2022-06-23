@@ -32,17 +32,17 @@ public class TC_001_Login extends DriverSetup {
 		driver.findElement(By.xpath("//button[@aria-label='Sign in']")).click();
 		Thread.sleep(3000);
 		
-//		String expected_title = "Feed | Linkedin";
-//		String actual_title = driver.getTitle();
-//		
-//		//checking login status
-//		if (expected_title.equals(actual_title)) {
-//			System.out.println("Login Successful");
-//		} else {
-//			System.out.println("Login Failed");
-//		}
-//		
-//		Assert.assertEquals(expected_title, actual_title);
+		String expected_title = "Feed | LinkedIn";
+		String actual_title = driver.getTitle();
+		
+		//checking login status
+		if (expected_title.equals(actual_title)) {
+			System.out.println("Login Successful");
+		} else {
+			System.out.println("Login Failed");
+		}
+		
+		Assert.assertEquals(expected_title, actual_title);
 		
 		//expand the dropdown menu to sign out
 		driver.findElement(By.xpath("//li[6]//div[1]//button[1]//span[1]//*[name()='svg']//*[name()='use' and contains(@class,'global-nav')]")).click();
@@ -52,5 +52,10 @@ public class TC_001_Login extends DriverSetup {
 		//sign out from account
 		driver.findElement(By.xpath("//a[@class='global-nav__secondary-link mv1']")).click();
 		Thread.sleep(2000);
+		
+		
+		//checking logout status
+		driver.quit();
+		System.out.println("Logout Successfull");
 	}
 }

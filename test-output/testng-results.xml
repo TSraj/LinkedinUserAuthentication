@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T12:51:11 BDT" name="Default suite" finished-at="2022-06-23T12:51:57 BDT" duration-ms="46380">
+  <suite started-at="2022-06-23T15:30:47 BDT" name="Default suite" finished-at="2022-06-23T15:31:18 BDT" duration-ms="30689">
     <groups>
     </groups>
-    <test started-at="2022-06-23T12:51:11 BDT" name="Default test" finished-at="2022-06-23T12:51:57 BDT" duration-ms="46380">
+    <test started-at="2022-06-23T15:30:47 BDT" name="Default test" finished-at="2022-06-23T15:31:18 BDT" duration-ms="30689">
       <class name="testCases.TC_001_Login">
-        <test-method is-config="true" signature="setDRiver()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T12:51:05 BDT" name="setDRiver" finished-at="2022-06-23T12:51:11 BDT" duration-ms="5665" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T15:30:42 BDT" name="setDriver" finished-at="2022-06-23T15:30:47 BDT" duration-ms="5521" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDRiver -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T12:51:11 BDT" name="login" finished-at="2022-06-23T12:51:57 BDT" duration-ms="46330" status="PASS">
+        </test-method> <!-- setDriver -->
+        <test-method signature="login()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T15:30:47 BDT" name="login" finished-at="2022-06-23T15:31:18 BDT" duration-ms="30625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T12:51:57 BDT" name="close" finished-at="2022-06-23T12:51:58 BDT" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.TC_001_Login@1fa268de]" started-at="2022-06-23T15:31:18 BDT" name="close" finished-at="2022-06-23T15:31:18 BDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
